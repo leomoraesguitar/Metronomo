@@ -1,0 +1,77 @@
+Descrições dos botões e funções do Metronomo:
+
+Os botôes -1, -5 e -10 diminuem as BPM em 1, 5 e 10 respectivamente.
+
+Os botôes +1, +5 e +10 aumentam as BPM em 1, 5 e 10 respectivamente.
+
+No campo central da primeira linha, você pode selecionar as BPM (30-899).
+
+Os botões "Exibir" e "Ocultar" exibem e ocultam os controles e display do metrônomo. Ideais para quando estiver praticando aumento de velocidade e não deseje ver as BPM. Isso ajuda psicologicamente
+
+
+================================================================================================================================================================================================
+Seletor de modelos:
+	Configure o programa de seu jeito, depois digite um nome neste campo e clic em salvar.
+	Na próxima inicialização do programa seu modelo está disponível para ser utilizado novamnete.
+	Salve quantos modelos desejar	
+
+
+================================================================================================================================================================================================
+Na parte do meio da tela estão os modos "Treinamento" e "Tarefas":
+
+
+Treinamento:
+	Meta: Alvo a que se deseja alcançar em BPM;
+	Início: Valor inicial em BPM
+	Passo: Valor dos incrementos de BPM (podem ser valores fracionários também)
+	Intervalo: Tempo em segundos até que mude o valor das BPM
+
+	Caixa Inverter: Faz com as BPM iniciem do valor da "Meta" e diminuam até o valor de " Início". Isso é útil para quando se quer encontrar a forma de palhetar mais natural para si
+	Caixa Treino Habilitado: Caso esta caixa esteja desabilitada, esse modo "Treinamento" não roda.
+	Caixa Tempo: Caso marcada, o campo "Intervalo" passa a ser o tempo de duração do treinamento (em minutos)
+
+
+Tarefas:
+	Botão Add Tarefa: Adiciona mais um campo de tarefa
+	Treino: Nome do treino/frase que irá treinar
+	Duração: Tempo em minutos de duração desse treino
+	In: valor inicial das BPM
+	Fim:valor final das BPM
+	Passo: incremento das BPM (podem ser valores fracionários também)
+	Play: Botão para iniciar a tarefa
+	Pause:Botão para pausar a tarefa.
+
+OBS: ao final de cada tarefa executa, as informações serão salvas no arquivo "tarefas.txt", na pasta local
+
+
+================================================================================================================================================================================================
+
+O botão "OK" inicia ou pausa o metrônomo.
+
+O botão "Pause" pausa o metrônomo
+
+O botão "Stop" para o metrônomo
+
+O botão "Salvar" salva as configurações do metrônomo.
+
+A caixa "Continuar", se marcada, faz o metrônomo continuar executando mesmo após atingir a meta.
+
+
+================================================================================================================================================================================================
+
+A caixa "Pomodoro", se marcada, habilita o pomodoro (divide o treino em intervalos com pausas), em que o campo "Pomodoro" define a duração do tempo de treino e o campo "Descanso" define a duração do tempo de pausa. Podem ser valores fracionários também.
+
+
+================================================================================================================================================================================================
+Teclas de atalho:
+
+Space: Inicia ou pausa o metrônomo.
+Home: aumenta 1 BPM
+up:aumenta 5 BPM
+PageUp:aumenta 10 BPM
+end:diminue 1 BPM
+down: diminue 5 BPM
+PageDown: diminue 10 BPM
+
+
+
